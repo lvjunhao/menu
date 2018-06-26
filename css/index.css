@@ -1,0 +1,280 @@
+*, :after, :before {
+    box-sizing: border-box;
+}
+*, :after, :before, img {
+    -webkit-box-sizing: border-box;
+}
+div {
+    display: block;
+}
+
+body, button, input, select, textarea {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: "liga", "kern";
+}
+body {
+    margin: 0;
+    background-color: #f6f6f6;
+    background-size: cover;
+    /* background: #052439; */
+    font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;
+    font-weight: 400;
+    color: #dbf5fe;
+    font-size: 1.6rem;
+    height: 100%;
+    width: 100%;
+}
+html {
+    width: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-size: 10px;
+}
+.ath-viewport, html {
+    -webkit-tap-highlight-color: transparent;
+}
+input[type=checkbox], input[type=radio] {
+    cursor: pointer;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body, button, input, select, textarea {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: "liga", "kern";
+}
+button, input {
+    line-height: normal;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+*, :after, :before, img {
+    -webkit-box-sizing: border-box;
+}
+input:not([type="image" i]), textarea {
+    box-sizing: border-box;
+}
+input[type="checkbox" i] {
+    margin: 3px 3px 3px 4px;
+}
+input[type="checkbox" i] {
+    -webkit-appearance: checkbox;
+    box-sizing: border-box;
+}
+input[type="radio" i], input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    margin: 3px 0.5ex;
+    padding: initial;
+    border: initial;
+}
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb !important;
+}
+a, ins {
+    text-decoration: none;
+}
+a {
+    color: #0e90d2;
+}
+a, pre code {
+    background-color: transparent;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+.selector, .selector button {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+body, button, input, select, textarea {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: "liga", "kern";
+}
+.menu-box {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -250px;
+    margin-top: -250px;
+    z-index: -1;
+}
+
+.selector {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 140px;
+    height: 140px;
+    margin-top: -70px;
+    margin-left: -70px;
+    z-index: -1;
+}
+
+.selector,
+.selector button {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+.selector button {
+    position: relative;
+    padding: 10px;
+    background: #428bca;
+    border-radius: 50%;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+    transition: all .3s ease-in-out;
+    bottom: -10px;
+    width: 140px;
+    height: 100%;
+}
+
+.selector button .selector button:hover {
+    background: #3071a9;
+}
+
+.selector button:focus {
+    outline: none;
+}
+
+.selector ul {
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    top: -20px;
+    right: -20px;
+    bottom: -20px;
+    left: -20px;
+}
+
+.selector li {
+    position: absolute;
+    width: 0;
+    height: 100%;
+    margin: 0 50%;
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+    transition: all 0.8s ease-in-out;
+}
+
+.selector li input {
+    display: none;
+}
+
+.selector li input+label {
+    position: absolute;
+    left: 50%;
+    bottom: 100%;
+    width: 0;
+    height: 0;
+    line-height: 1px;
+    margin-left: 0;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: none;
+    transition: all 0.8s ease-in-out, color 0.1s, background 0.1s;
+}
+
+.selector li input+label:hover {
+    background: #f0f0f0;
+}
+
+.selector li input:checked+label {
+    background: #5cb85c;
+    color: white;
+}
+
+.selector li input:checked+label:hover {
+    background: #449d44;
+}
+
+.selector.open li input+label {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    margin-left: -40px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+}
+
+.bot-icon {
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    background: #428bca;
+    color: #ffffff;
+    bottom: -40px;
+    left: 50%;
+    margin-left: -30px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 50px;
+    transition: all .8s ease-in-out;
+    font-size: 1px;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.bot-active {
+    bottom: 50%;
+    width: 140px;
+    height: 140px;
+    margin-bottom: -70px;
+    margin-left: -70px;
+    line-height: 140px;
+    font-size: 20px;
+}
